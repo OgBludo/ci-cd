@@ -31,7 +31,7 @@ jobs:
       run: npm run build
 
     - name: Run tests
-      run: npm test  -- --maxWorkers=2
+      run: npm test
 
   deploy:
     needs: build
