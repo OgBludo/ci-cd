@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-ci-cd",
+  "name": "ci-cd",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
