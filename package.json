@@ -1,5 +1,5 @@
 {
-  "name": "ci-cd",
+  "name": "simple-react-ci-cd",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^12.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
     "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   }
 }
