@@ -55,5 +55,6 @@ jobs:
     - name: Deploy to Vercel
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        NODE_OPTIONS: --openssl-legacy-provider
       run: |
         npx vercel --token $VERCEL_TOKEN
